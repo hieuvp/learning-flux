@@ -16,3 +16,14 @@ git-add: fmt lint
 	@printf "\n"
 	git add --all .
 	@printf "\n"
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Utils
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.PHONY: update
+update:
+	@printf "\n"
+	git submodule foreach git-update
+	@printf "\n"
