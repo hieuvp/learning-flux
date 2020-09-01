@@ -1,3 +1,7 @@
+[submodule "examples/flux-get-started"]
+	path = examples/flux-get-started
+	url = git@github.com:fluxcd/flux-get-started.git
+
 [submodule "examples/helm-operator-get-started"]
 	path = examples/helm-operator-get-started
 	url = git@github.com:fluxcd/helm-operator-get-started.git
