@@ -1,0 +1,7 @@
+[submodule "examples/helm-operator-get-started"]
+	path = examples/helm-operator-get-started
+	url = git@github.com:fluxcd/helm-operator-get-started.git
+
+[submodule "examples/podinfo"]
+	path = examples/podinfo
+	url = git@github.com:stefanprodan/podinfo.git
